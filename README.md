@@ -9,4 +9,6 @@ Design: The class QGradient provides possibility to draw the backgrount color to
 4. Flowchart your application Start -> Initialize Application: creating mainwindow that contains all of compenents and initializing other components -> Displaying the whole application -> User interaction: userAdjust sliders → Emit signals to WaveWidget. WaveWidget updates frequency/amplitude -> Render sinusoid -> End
 5. Explain particularly challenging pieces of your application - Updating the wave in real-time while ensuring smooth rendering was challenging. It required a good understanding of the paintEvent lifecycle and efficient use of QPainter
 6. Summary of your learning takeaways -> Custom Drawing in Qt: Learned how to implement custom widgets with QWidget and override paintEvent for rendering dynamic visuals. Mathematical Visualization: Understood how mathematical functions (like sine) can be translated into graphical representations. UI Design in Qt: Practiced creating a structured GUI with sliders and dynamically updating widgets.
+
+
 ![IMG-64a58df3c4f44df31e7b78a010593f3c-V](https://github.com/user-attachments/assets/f0d95323-63bb-4c93-8cf3-746d827dd97f)
